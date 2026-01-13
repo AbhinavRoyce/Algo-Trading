@@ -1,0 +1,14 @@
+ipykernel
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
+tensorflow
+flask
+requests
+nltk
+sentence-transformers
+# beautifulsoup4
+# pytest
+# sqlalchemy
