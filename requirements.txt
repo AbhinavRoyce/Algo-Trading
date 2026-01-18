@@ -9,6 +9,7 @@ flask
 requests
 nltk
 sentence-transformers
+yfinance
 # beautifulsoup4
 # pytest
 # sqlalchemy

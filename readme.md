@@ -3,7 +3,7 @@ Creating venv
 #source venv/bin/activate
 
 Creating Requirements
-#create a file requirements and write name of all the packages required
+##create a file requirements and write name of all the packages required
 #pip install -r requirements.txt
 
 Creating .gitignore
