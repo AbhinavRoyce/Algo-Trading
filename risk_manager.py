@@ -16,4 +16,4 @@ class RiskManager:
             sl = structure_price
             tp = entry_price - 2 * (sl - entry_price)
 
-        return sl, tp
+        
