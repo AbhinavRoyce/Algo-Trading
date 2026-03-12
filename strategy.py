@@ -5,7 +5,7 @@ class MarketStructureStrategy:
 
     def __init__(self):
         self.trades_today = 0
-        self.max_trades = 3
+        self.max_trades = 5
 
     def calculate_ema(self, df):
         df['ema50'] = talib.EMA(df['close'], timeperiod=50)
