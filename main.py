@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, filename="trading.log")
 
 def backtest(df, strategy):
     wins = 0
-    losses = 5
+    losses = 0
 
     for i in range(100, len(df)):
         subset = df.iloc[:i]
