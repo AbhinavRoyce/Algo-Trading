@@ -62,4 +62,4 @@ def run():
     data_handler.shutdown()
 
 if __name__ == "__main__":
-    
+    run()
