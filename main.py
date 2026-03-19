@@ -59,7 +59,7 @@ def run():
 
         executor.place_trade(signal, lot, sl, tp)
 
-    data_handler.shutdown()
+    
 
 if __name__ == "__main__":
     run()
