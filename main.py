@@ -47,7 +47,7 @@ def run():
 
     if signal:
         account = data_handler.get_account_info()
-        balance = 
+        balance = account.balance
 
         entry_price = df['close'].iloc[-1]
         structure_price = swings['swing_low'].dropna().iloc[-1] if signal == "buy" else swings['swing_high'].dropna().iloc[-1]
