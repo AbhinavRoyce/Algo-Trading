@@ -24,4 +24,4 @@ class MarketStructureStrategy:
         if trend == "bearish" and bos == "bearish_bos" and ema_slope < 0:
             return "sell"
 
-        
+        return None
