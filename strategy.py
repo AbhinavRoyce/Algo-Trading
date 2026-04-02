@@ -1,5 +1,5 @@
 import talib
-import  as np
+import numpy as np
 
 class MarketStructureStrategy:
 
