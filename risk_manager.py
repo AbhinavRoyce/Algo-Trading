@@ -14,6 +14,6 @@ class RiskManager:
             tp = entry_price + 2 * (entry_price - sl)
         else:
             sl = structure_price
-            tp = entry_price - 2 * (sl - entry_pr
+            tp = entry_price - 2 * (sl - entry_price)
 
         
