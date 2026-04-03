@@ -61,4 +61,4 @@ class StructureDetector:
         if last_swing_low and current_price < last_swing_low:
             return "bearish_bos"
 
-        return 
+        return None
